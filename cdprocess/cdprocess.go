@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 )
 
-func Casedataprocessing() {
+func Casedataprocessing(zipFilePath string) {
 
 	// Specify the path to your zip file
-	zipFilePath := "C:\\Users\\TLSPC-106\\Downloads\\caseData\\2003.zip"
+	// zipFilePath := "C:\\Users\\TLSPC-106\\Downloads\\caseData\\2003.zip"
 
 	// Open the zip file for reading
 	zipFile, err := unzip.OpenZipFile(zipFilePath)
